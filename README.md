@@ -16,4 +16,4 @@ Une API permettant de gérer des quiz via FastAPI.
 - `/create_question` : Ajoute une question au fichier CSV.
 
 ## Auteur
-Keich_K.
+Ben Cheick.
