@@ -1,0 +1,13 @@
+{
+    "admin_username": "admin",
+    "admin_password": "4dm1N",
+    "question": "Qu'est-ce que l'apprentissage supervisé ?",
+    "subject": "Deep Learning",
+    "correct": ["Supervised learning"],
+    "use": "Processing Langage",
+    "responseA": "Classifier des données.",
+    "responseB": "Régression",
+    "responseC": "L'enchaînement des tâches à effectuer",
+    "responseD": "Améliorer les calculs"
+  }
+  

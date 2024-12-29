@@ -1,0 +1,25 @@
+/************Request for generate_quiz**************************/
+curl -X POST "http://127.0.0.1:8000/generate_quiz" \
+-H "Authorization: Basic YWxpY2U6d29uZGVybGFuZA==" \
+-H "Content-Type: application/json" \
+-d '{
+  "use": "Test de positionnement",
+  "subject": ["Streaming de données", "Docker"],
+  "number": 5
+}'
+
+curl -X POST "http://127.0.0.1:8000/generate_quiz" \
+-H "Authorization: Basic YWxpY2U6d29uZGVybGFuZA==" \
+-H "Content-Type: application/json" \
+-d '{
+  "use": "Test de validation",
+  "subject": ["Classification", "Systèmes distribués"],
+  "number": 10
+}'
+
+
+/******************Request 3 for create_question****************/
+curl -X POST "http://127.0.0.1:8000/create_question" \
+-H "Content-Type: application/json" \
+-d @playload.json
+

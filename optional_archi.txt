@@ -1,0 +1,14 @@
+## fichier playload.json pour chargement de données dans question.csv (Erreur de chargement avec la méthode classique de la forme:curl -X POST "http://127.0.0.1:8000/create_question" \
+-H "Content-Type: application/json" \
+-d '{
+    "admin_username": "admin",
+    "admin_password": "4dm1N",
+    "question": "Qu'est-ce que l'apprentissage supervisé ?",
+    "subject": "Deep Learning",
+    "correct": ["Supervised learning"],
+    "use": "Processing Langage",
+    "responseA": "Classifier des données.",
+    "responseB": "Régression",
+    "responseC": "L'enchaînement des tâches à effectuer",
+    "responseD": "Améliorer les calculs"
+  }' )
